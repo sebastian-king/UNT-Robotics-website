@@ -22,7 +22,6 @@ $validation_error = null;
 if (!empty($external_product_id)) {
 	try {
 		$product = $printfulapi->get_product('@' . $external_product_id);
-		//error_log("ID: " . $product->get_variants()[0]->get_product()->get_product_id());
 		$catalog_product = $printfulapi->get_catalog_product($product->get_variants()[0]->get_product()->get_product_id());
 		
 		//var_dump($product);
