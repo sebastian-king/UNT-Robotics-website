@@ -174,7 +174,7 @@ head('Botathon Info', true);
             <div class="range range-md-justify">
                 <div class="cell-md-12 cell-lg-10">
                     <div class="inset-md-right-30 inset-lg-right-0">
-                        <h1><strong>Botathon</strong> - <em>Season <?php echo BOTATHON_SEASON?> (2024)</em></h1>
+                        <h1><strong>Botathon</strong> - <em>Season <?php echo BOTATHON_SEASON?> (2025)</em></h1>
 
                         <h2>What is Botathon?</h2>
 
@@ -208,12 +208,12 @@ head('Botathon Info', true);
                 <div class="cell-md-12 cell-lg-10">
                     <div class="inset-md-right-30 inset-lg-right-0">
                         <h2>Registration</h2>
-                        <p>Registration for Season  <?php echo BOTATHON_SEASON?><em>is open now</em> for all currently enrolled UNT students.</p>
+                        <p>Registration for Season <?php echo BOTATHON_SEASON?><em> is open now</em> for all currently enrolled UNT students.</p>
 
                         <div class="cell-md-8 cell-lg-9">
                             <h4><strong>Mar. 8:</strong> Registration Opened</h4>
                             <h4><strong>Mar. 28:</strong> Registration Ends</h4>
-                            <h4><strong>Mar. 30:</strong> Day of Event</h4>
+                            <h4><strong>Mar. 29:</strong> Day of Event</h4>
                         </div>
 
                         <div class="well-custom">
@@ -229,38 +229,25 @@ head('Botathon Info', true);
                 </div>
             </div>
     </section>
-
-    <!--<section class="section-50" id="event-details">
-        <div class="shell">
-            <h2>Event Details</h2>
-            <div class="range">
-                <div class="cell-md-8 cell-lg-9">
-                    <div>Registration</div>
-                    <h4><strong>Feb. 19:</strong> Registration Opened</h4>
-                    <h4><strong>Mar. 20:</strong> Registration Ends</h4>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
     <section class="section-50" id="gameplay">
         <div class="shell">
             <h2>Gameplay</h2>
             <div class="range">
                 <div class="cell-md-8 cell-lg-9">
                     <p class="inset-md-right-30 inset-lg-right-0">
-                        <p>Botathon Season 5 will be a capture the flag style event, where robots will face off 1v1 and must capture blocks from the opposing team. The blue side must capture the red blocks, and the red side must capture the blue blocks.</p>
-                        <p>These blocks will be of two types:</p>
+                        <p>Botathon Season <?php echo BOTATHON_SEASON?> will be a trucking event, where robots will pick up and deposit objects of varying shapes and weights. The goal is to efficiently navigate an elevated, bumpy, and sloped platform to retrieve and deliver the objects to a designated drop-off zone, and points are awarded based off of the type of object deposited..</p>
+                        <p>These blocks will be of four different types:</p>
                         <p>
                             <ol>
-                                <li>• 1” square wooden blocks, worth 1 point each</li>
-                                <li>• 1” square nickel (magnetic) blocks, worth 2 points each <em>(electromagnets will be provided too with your robot kits)</em></li>
+                                <li>• Small-sized wooden blocks, worth 1 point each</li>
+                                <li>• Medium-sized wooden blocks, worth 2 points each</li>
+                                <li>• Weird-shaped blocks, worth 3 points each</li>
+                                <li>• Nickel (magnetic) blocks, worth 5 points each <em>(electromagnets will be provided too with your robot kits)</em></li>
                             </ol>
                         </p>
-                        <p>To capture a block, it must be placed on the robot’s home side within a marked boundary called the ‘capture area’ (marked using tape) and remain within the boundary at the end of the match.</p>
-                        <p>A secondary capture area atop a ramp will provide the team one extra point per block. So, a wooden block in the secondary capture area will be worth 2 points, and a nickel block worth 3 points.</p>
-                        <p>Each round will have a 3 minute time limit. At the end of the match, a referee will count all of the blocks in each area and determine the scores and winner. In the case of a tie, a sudden death round will occur with a single block placed in the center of the field and the first team to capture the block and place it into one of their capture areas will be the winner.</p>
-                        <div><img src="/images/botathon-photos/season-5/botathon-2024-field.jpg" alt="Mecanum wheeled robot" class="img-responsive"/></div>
+                        <p>Robots must be able to pick up objects on their own.</p>
+                        <p>Players will navigate their robot to the delivery area and deposit the object their.</p>
+                        <p>Each round will have a 3 minute time limit. At the end of the match, a referee will count all of the blocks in each area and determine the scores and winner. In the case of a tie, a sudden death round will occur with two blocks placed in the center of the field, and the first team to capture the block and place it into their capture area will be the winner.</p>
                     </p>
                 </div>
             </div>
@@ -273,7 +260,7 @@ head('Botathon Info', true);
             <div class="range">
                 <div class="cell-md-8 cell-lg-9">
                     <div class="inset-md-right-30 inset-lg-right-0">
-                        <div>Event Date: <strong>March 30, 2024</strong></div>
+                        <div>Event Date: <strong>March 29, 2025</strong></div>
                         <table id="schedule">
                             <tr><td>&nbsp;9:00 am</td><td>Check-in Opens</td></tr>
                             <tr><td>&nbsp;9:30 am</td><td>Team Finding Event</td></tr>
@@ -563,8 +550,8 @@ head('Botathon Info', true);
                             our members with your company's message. </p>
                         <p><strong>If you would like to become a UNT Robotics sponsor, please <a href="/contact">contact
                                     us</a>!</strong></p>
-                        <div class="sponsor"><img src="/images/sponsor-logos/botathon/eagles-nest.jpg"
-                                                  alt="eagle's nest logo"/></div>
+                        <!--<div class="sponsor"><img src="/images/sponsor-logos/botathon/eagles-nest.jpg"
+                                                  alt="eagle's nest logo"/></div>-->
                     </div>
                 </div>
             </div>
